@@ -237,7 +237,7 @@ require('lazy').setup({
 
     dependencies = { 'nvim-lua/plenary.nvim' },
     opts = {
-      workspaces = { { name = 'personal', path = '~/.vaults/personal' } },
+      workspaces = { { name = 'personal', path = '~/.vaults/personal' }, { name = 'work', path = '~/.vaults/work/' } },
       templates = { folder = 'Extras/Templates' },
       log_level = vim.log.levels.INFO,
       completion = { nvim_cmp = true, min_chars = 2 },
